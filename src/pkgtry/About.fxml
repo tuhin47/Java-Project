@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="about" prefHeight="500.0" prefWidth="600.0" stylesheets="@../folder/CSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.AboutController">
+   <children>
+      <Text fill="#07aab8" layoutX="204.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dept. of Cse,Sust">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#07aab8" layoutX="188.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reg No :2013331047">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ced62c" layoutX="217.0" layoutY="196.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="  Developed by:  " underline="true">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#07aab8" layoutX="166.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MD. TowHidul Isalm Tuhin">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="196.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="204.0">
+         <image>
+            <Image url="@../folder/aboutLabel.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#ced62c" layoutX="174.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Under Supervision of:  " underline="true">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#07aab8" layoutX="196.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MD. Eamin Rahman">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#07aab8" layoutX="89.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assistant Professor,Dept. of CSE,Sust">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="455.0" layoutY="453.0" mnemonicParsing="false" onAction="#backButtonclicked" text="BACK" />
+   </children>
+</AnchorPane>

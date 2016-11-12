@@ -1,0 +1,10 @@
+T=2πr/v T=2*pi*r/v r=T*v/(2*pi) v=2*pi*r/T
+ω=2πf ω=2*pi*f f=ω/(2*pi)
+a=v^2/r a=v^2/r v=sqrt(a*r) r=v^2/a
+a=ω^2*r a=ω^2*r ω=sqrt(a/r) r=a/(ω^2)
+F=mv^2/r F=m*v^2/r m=F*r/(v^2) v=sqrt(F*r/m) r=m*v^2/F
+F=mω^2*r F=m*ω^2*r m=F/(ω^2*r) ω=sqrt(F/(m*r)) r=F/(m*ω^2)
+v=ωr v=ω*r ω=v/r r=v/ω
+a=αr a=α*r α=a/r r=a/α
+I=mr^2 I=m*r^2 m=I/r^2 r=sqrt(I/m)
+E=Iω^2 E=I*ω^2 I=E/ω^2 ω=sqrt(E/I) 

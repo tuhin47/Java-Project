@@ -1,0 +1,5 @@
+v=ƒλ v=f*λ f=v/λ λ=v/f
+f(beat)=f(high)−f(low) f(beat)=f(high)-f(low) f(high)=f(beat)+f(low) f(low)=f(high)-f(beat)
+I=P/A I=P/A P=I*A A=P/I
+nλ=d*sinθ n=d*sinθ/λ λ=d*sinθ/n d=n*λ/sinθ sinθ=n*λ/d
+1/f=1/do+1/di f=1/(1/do+1/di) do=1/(1/f-1/di) di=1/(1/f-1/do)

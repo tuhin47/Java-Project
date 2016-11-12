@@ -1,0 +1,16 @@
+m kg 1 gm 1000 mg .001
+r m 1 cm 100 km .001
+h m 1 cm 100 km .001
+v m/s 1 cm/s 100 km/h 3.6
+v0 m/s 1 cm/s 100 km/h 3.6
+F N 1 gcm/s^2 100000
+a m/s^2 1 cm/s^2 100
+g m/s^2 1 cm/s^2 100
+t s 1 min 0.01666667 hr .00027777778
+p kgms^-1 1 gcms^-1 100000
+P Watt 1 kWatt .001
+Ek J 1 kJ .001
+E J 1 kJ .001
+W J 1 kJ .001
+U J 1 kJ .001
+f  1

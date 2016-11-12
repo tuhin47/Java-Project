@@ -1,0 +1,20 @@
+m kg 1 gm 1000 mg .001
+x m 1 cm 100 km .001
+d m 1 cm 100 km .001
+y m 1 cm 100 km .001
+A m 1 cm 100 km .001
+L m 1 cm 100 km .001
+xm m 1 cm 100 km .001
+ω s-1 1 min-1 60
+t s 1 mms 1000 min 1/60 
+T s 1 mms 1000 min 1/60 
+δ deg 1
+k kg/s2 1 gm/s2 1000
+F N 1 gcm/s^2 100000
+g m/s^2 1 cm/s^2 100
+λ m 1 mm 1000 cm 100
+f Hz 1 min-1 60
+f' Hz 1 min-1 60
+v m/s 1 cm/s 100 km/h 3.6
+us m/s 1 cm/s 100 km/h 3.6
+uo m/s 1 cm/s 100 km/h 3.6

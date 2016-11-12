@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="back" prefHeight="500.0" prefWidth="600.0" stylesheets="@../folder/radioList.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.InputPanelController">
+   <children>
+      <Button layoutX="437.0" layoutY="454.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="36.0" prefWidth="83.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="homeButton" layoutX="322.0" layoutY="455.0" mnemonicParsing="false" onAction="#homeButtonClicked" prefHeight="36.0" prefWidth="97.0" text="Home">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="407.0" layoutY="354.0" mnemonicParsing="false" onAction="#calculateButtonClicked" text="Calculate" AnchorPane.bottomAnchor="115.0" />
+      <TextField fx:id="resText" editable="false" layoutX="184.0" layoutY="370.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="174.0" promptText="0.0" AnchorPane.bottomAnchor="70.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <padding>
+            <Insets bottom="1.0" left="5.0" top="1.0" />
+         </padding>
+      </TextField>
+      <GridPane fx:id="grid" layoutX="90.0" layoutY="145.0" prefHeight="210.0" prefWidth="462.0" AnchorPane.bottomAnchor="149.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <Label fx:id="label1" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="172.0" text="Label">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="text1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Empty" GridPane.columnIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" top="1.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </TextField>
+            <Label fx:id="label2" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="text2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Empty" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" top="1.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </TextField>
+            <TextField fx:id="text3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Empty" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" top="1.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </TextField>
+            <Label fx:id="label3" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="text4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Empty" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" top="1.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </TextField>
+            <Label fx:id="label4" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.rowIndex="3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <TextField fx:id="text5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Empty" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="5.0" top="1.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </TextField>
+            <Label fx:id="label5" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.rowIndex="4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </Label>
+            <ComboBox fx:id="combo2" prefHeight="33.0" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </ComboBox>
+            <ComboBox fx:id="combo3" prefHeight="33.0" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </ComboBox>
+            <ComboBox fx:id="combo4" prefHeight="33.0" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </ComboBox>
+            <ComboBox fx:id="combo5" prefHeight="33.0" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </ComboBox>
+            <ComboBox fx:id="combo1" prefHeight="33.0" prefWidth="150.0" GridPane.columnIndex="2">
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </ComboBox>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="144.0" />
+            <ColumnConstraints />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="10.0" prefWidth="169.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <ComboBox fx:id="finalCom" layoutX="370.0" layoutY="370.0" onAction="#finalComAction" prefHeight="30.0" prefWidth="150.0" AnchorPane.bottomAnchor="70.0" AnchorPane.rightAnchor="80.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </ComboBox>
+      <Label fx:id="resLabel" alignment="CENTER_RIGHT" layoutX="54.0" layoutY="410.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="119.0" text="Label" AnchorPane.bottomAnchor="68.0" AnchorPane.topAnchor="410.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </Label>
+      <Button layoutX="266.0" layoutY="103.0" mnemonicParsing="false" onAction="#okButtonCliked" text="OK" />
+      <ListView fx:id="listView" layoutX="100.0" layoutY="49.0" prefHeight="38.0" prefWidth="369.0" stylesheets="@../folder/radioList.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="49.0" />
+      <Button layoutX="186.0" layoutY="455.0" mnemonicParsing="false" onAction="#solutionButtonClicked" prefHeight="38.0" prefWidth="119.0" text="Solution" />
+   </children>
+</AnchorPane>

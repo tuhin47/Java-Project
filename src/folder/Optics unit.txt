@@ -1,0 +1,15 @@
+d m 1 cm 100 km .001
+do m 1 cm 100 km .001
+di m 1 cm 100 km .001
+v m/s 1 cm/s 100 km/h 3.6
+f m-1 1 cm-1 .01
+T s 1 min 1/60
+f(beat) Hz 1 min-1 60
+f(high) Hz 1 min-1 60
+f(low) Hz 1 min-1 60
+I Watt/m2 1 kW/m2 1000
+P Watt 1 kW 1000 hp 745.7
+A m2 1 cm2 10000
+n num 1
+λ m 1 mm 1000 cm 100
+sinθ - 1

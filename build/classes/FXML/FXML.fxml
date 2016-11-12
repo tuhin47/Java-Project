@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" stylesheets="@../folder/CSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.FXMLDocumentController">
+   <children>
+      <TitledPane alignment="CENTER" collapsible="false" prefHeight="453.0" prefWidth="522.0" text="Pysics Equation Solver Pro" textFill="#00a19c" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TitledPane alignment="CENTER" collapsible="false" layoutX="169.0" layoutY="73.0" text="Select Genre">
+                     <content>
+                        <ListView fx:id="listView" fixedCellSize="40.0" layoutX="144.0" layoutY="79.0" onMouseClicked="#handleButtonAction" prefHeight="283.0" prefWidth="259.0" AnchorPane.bottomAnchor="79.20000000000005" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="144.20000000000005" AnchorPane.topAnchor="79.0" />
+                     </content>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TitledPane>
+               </children>
+            </AnchorPane>
+        </content>
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TitledPane>
+   </children>
+</AnchorPane>

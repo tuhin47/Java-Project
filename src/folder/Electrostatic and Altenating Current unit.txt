@@ -1,0 +1,18 @@
+F N 1 gcm/s^2 100000
+C F 1
+W J 1 kJ 1000
+P J 1 kJ 1000
+q C 1
+Q C 1
+r m 1 cm 100 mm 1000
+d m 1 cm 100 mm 1000
+F N 1 gcm/s^2 100000
+k NC^-2m^2 1
+E N/C 1
+V J 1 kJ 1000
+Vrms J 1 kJ 1000
+Vmax J 1 kJ 1000
+ε0 N^-1C^2m^-2 1
+A m2 1 cm2 10000
+I amp 1
+R omega 1

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="back" prefHeight="500.0" prefWidth="600.0" stylesheets="@../folder/CSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.EqnListController">
+   <children>
+      <Button layoutX="464.0" layoutY="450.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="36.0" prefWidth="89.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TitledPane alignment="CENTER" collapsible="false" layoutX="175.0" layoutY="53.0" text="Select Equation" textFill="#1c1ab9" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="56.0">
+         <content>
+            <ListView id="eqnlist" fx:id="listView" fixedCellSize="35.0" layoutX="165.0" layoutY="66.0" onMouseClicked="#change" prefHeight="362.0" prefWidth="248.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ListView>
+         </content>
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="345.0" layoutY="452.0" mnemonicParsing="false" onAction="#addButtonClicked" text="+ADD" />
+      <Button layoutX="244.0" layoutY="452.0" mnemonicParsing="false" onAction="#deleteButtonClicked" stylesheets="@../folder/CSS.css" text="Delete" />
+   </children>
+</AnchorPane>

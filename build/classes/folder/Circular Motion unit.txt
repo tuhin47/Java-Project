@@ -1,0 +1,15 @@
+m kg 1 g 1000
+a m/s^2 1 cm/s^2 100
+g m/s^2 1 cm/s^2 100
+v m/s 1 cm/s 100 km/h 3.6
+d m 1 cm 100 km .001
+I Watt/m2 1 kW/m2 1000
+v0 m/s 1 cm/s 100 km/h 3.6
+F N 1 gcm/s^2 100000
+t s 1 min 0.01666667 hr .00027777778
+T N 1
+ω s-1 1 min-1 60
+f s-1 1 min-1 60
+r m 1 cm 100 km .001
+α s-2 1
+E V/m 1

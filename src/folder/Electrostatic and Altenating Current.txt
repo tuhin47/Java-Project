@@ -1,0 +1,11 @@
+F=kqQ/r^2 F=k*q*Q/r^2 k=q*Q/(r^2*F) q=k*Q/(r^2*F) Q=k*q/(r^2*F) r=sqrt(k*q*Q/F)
+E=F/q E=F/q F=q*E q=F/E
+E=kqQ/r E=k*q*Q/r k=q*Q/(r*E) q=k*Q/(r*E) Q=k*q/(r*E) r=k*q*Q/E
+V=E/q V=E/q E=V*q q=E/V
+C=Q/V C=Q/V Q=C*V V=Q/C 
+C=ε0*A/d C=ε0*A/d ε0=C*d/A A=C*d/ε0 d=ε0*A/C
+W=CV^2/2 W=C*V^2/2 C=2*W/V^2 V=sqrt(2*W/C)
+P=VI P=V*I V=P/I I=P/V
+P=V^2/R P=V^2/R V=sqrt(P/R) R=V^2/P
+P=I^2*R P=I^2*R R=P/I^2 I=sqrt(P/R)
+Vrms=Vmax/√2 Vrms=Vmax/√2 Vmax=Vrms*√2

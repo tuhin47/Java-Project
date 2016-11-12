@@ -1,0 +1,11 @@
+v=v0+at v=v0+a*t v0=v-a*t a=(v-v0)/t t=(v-v0)/a
+s=(v+v0)t/2 s=(v+v0)*t/2 v=2*s/t-v0 v0=2*s/t-v t=2*s/(v+v0)
+s=v0t+.5at^2 s=v0*t+.5*a*t^2 v0=(s-.5*a*t*t)/t a=2*(s-v0*t)/(t*t) t=(-v0+sqrt(v0*v0+2*a*s))/a
+x=x0+v0*t+.5at^2 x=x0+v0*t+.5*a*t^2 x0=x-v0*t-.5*a*t*t v0=(x-x0-.5*a*t*t)/t a=2*(x-x0-v0*t)/(t*t) t=(-v0+sqrt(v0*v0+2*a*(x-x0)))/a
+v^2=v0^2+2as v=sqrt(v0^2+2*a*s) v0=sqrt(v^2-2*a*s) a=(v*v-v0*v0)/(2*s) s=(v*v-v0*v0)/(2*a)
+R=v0^2/g R=v0^2/G v0=sqrt(R*G) G=v0^2/R
+T=2v0/g T=2*v0/G v0=T*G*.5 G=2*v0/T
+tm=v0/g tm=v0/G v0=tm*G G=v0/tm
+F=ma F=m*a m=F/a a=F/m
+p=mv p=m*v m=p/v v=p/m
+

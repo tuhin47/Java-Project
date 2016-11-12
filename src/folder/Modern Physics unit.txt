@@ -1,0 +1,13 @@
+m kg 1 kg .001 gm 1000
+m' kg 1 kg .001 gm 1000
+E J 1 kJ .001
+Kmax J 1 kJ .001
+ϕ J 1 kJ .001
+ℓ m 1 cm 100 km .001
+ℓ' m 1 cm 100 km .001
+t s 1 min 0.01666667 hr .00027777778
+t' s 1 min 0.01666667 hr .00027777778
+c m/s^2 1 cm/s^2 100
+v m/s^2 1 cm/s^2 100
+f Hz 1 min-1 60
+f0 Hz 1 min-1 60

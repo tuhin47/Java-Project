@@ -1,0 +1,13 @@
+m kg 1 g 1000
+s m 1 cm 100 km .001
+G m/s^2 1 cm/s^2 100
+v m/s 1 cm/s 100 km/h 3.6
+v0 m/s 1 cm/s 100 km/h 3.6
+F N 1 gcm/s^2 100000
+a m/s^2 1 cm/s^2 100
+x m 1 cm 100 km .001
+x0 m 1 cm 100 km .001
+R m 1 cm 100 km .001
+t s 1 min 0.01666667 hr .00027777778
+T s 1 min 0.01666667 hr .00027777778
+tm s 1 min 0.01666667 hr .00027777778

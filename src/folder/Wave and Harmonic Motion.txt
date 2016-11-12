@@ -1,0 +1,8 @@
+F=kx F=k*x k=F/x x=F/k
+F=mω^2x F=m*ω^2*x m=F/(ω*ω*x) ω=sqrt(F/(m*x)) x=F/(ω*ω*m)
+x=xm*cos(ωt+δ) x=xm*cos(ω*t+δ) xm=x/cos(ω*t+δ) ω=(acos(x/xm)-δ)/t t=(acos(x/xm)-δ)/ω δ=acos(x/xm)-ω*t
+T=2π√(L/g) T=2*pi*sqrt(L/g) L=T*T*g/(4*(pi)*(pi)) g=4*(pi)*(pi)*L/(T*T)
+T=2π√(m/k) T=2*pi*sqrt(m/k) m=T*T*k/(4*(pi)*(pi)) k=4*(pi)*(pi)*m/(T*T) 
+v=fλ v=f*λ f=v/λ λ=v/f
+y=Asin(2π/λ*(vt-x)) y=A*sin(2*pi/λ*(v*t-x)) A=y/sin(2*pi/λ*(v*t-x)) λ=2*pi*(v*t-x)/asin(y/A) v=(λ*asin(y/A)/(2*pi)+x)/t t=(λ*asin(y/A)/(2*pi)+x)/v x=(λ*asin(y/A)/(2*pi))+v*t
+δ=2π/λd δ=2*pi*d/λ λ=2*pi*d/δ d=δ*λ/(2*pi)

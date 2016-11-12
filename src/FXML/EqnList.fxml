@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.EqnListController">
+   <children>
+      <Button layoutX="462.0" layoutY="450.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="36.0" prefWidth="56.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TitledPane alignment="CENTER" collapsible="false" layoutX="175.0" layoutY="53.0" text="Select Equation">
+         <content>
+            <ListView fx:id="listView" fixedCellSize="35.0" layoutX="165.0" layoutY="66.0" onMouseClicked="#change" prefHeight="362.0" prefWidth="248.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ListView>
+         </content>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TitledPane>
+   </children>
+</AnchorPane>

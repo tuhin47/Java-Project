@@ -1,0 +1,11 @@
+PV=nRT P=n*R*(T+273)/V V=n*R*(T+273)/P n=P*V/R*(T+273) R=P*V/n*(T+273) T=P*V/n*R-273
+Δℓ=αℓ0ΔT Δℓ=α*ℓ0*ΔT α=Δℓ/(ℓ0*ΔT) ℓ0=Δℓ/(α*ΔT) ΔT=Δℓ/(α*ℓ0)
+ΔA=2αA0ΔT  ΔA=2*α*A0*ΔT α=.5*ΔA/(A0*ΔT) A0=.5*ΔA/(α*ΔT) ΔT=.5*ΔA/(α*A0)
+ΔV=3αV0ΔT ΔV=3*α*V0*ΔT α=.3333*ΔV/(V0*ΔT) V0=.33333*ΔV/(α*ΔT) ΔT=.3333*ΔV/(α*V0)
+Q=mcΔT Q=m*C*ΔT m=Q/(C*ΔT) C=Q/(m*ΔT) ΔT=Q/(m*C) 
+vp=√(2kT/m) vp=sqrt(2*k*T/m) k=vp^2*m/(2*T) T=vp^2*m/(2*k) m=(2*k*T)/vp^2
+vrms=√(3kT/m) vrms=sqrt(3*k*T/m) k=vrms^2*m/(3*T) T=vrms^2*m/(3*k) m=(3*k*T)/vrms^2
+Φ=εσA(T^4−T0^4) Φ=ε*σ*A*(T^4 −T0^4) ε=σ*A*(T^4 −T0^4)/Φ σ=ε*A*(T^4 −T0^4)/Φ A=ε*σ*(T^4 −T0^4)/Φ T=sqrt(sqrt(Φ/(ε*σ*A)+T0^4)) T0=sqrt(sqrt(-Φ/(ε*σ*A)+T^4))
+λmax=b/T λmax=b/T b=λmax*T T=b/λmax
+ΔU=Q+W ΔU=Q+W Q=ΔU-W W=ΔU-Q
+ΔU=3⁄2nRΔT ΔU=3⁄2*n*R*ΔT n=2*ΔU/(3*R*ΔT) R=2*ΔU/(3*n*ΔT) ΔT=2*ΔU/(3*R*n)

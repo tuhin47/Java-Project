@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="about" prefHeight="500.0" prefWidth="600.0" stylesheets="@../folder/radioList.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.SolutionController">
+   <children>
+      <Button layoutX="418.0" layoutY="423.0" mnemonicParsing="false" onAction="#backButtonClicked" prefHeight="36.0" prefWidth="89.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label layoutX="67.0" layoutY="85.0" prefHeight="40.0" prefWidth="120.0" text="Equation:" />
+      <TextField fx:id="equation" editable="false" layoutX="201.0" layoutY="84.0" prefHeight="40.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="solution" editable="false" layoutX="202.0" layoutY="148.0" prefHeight="50.0" prefWidth="300.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="result" editable="false" layoutX="201.0" layoutY="226.0" prefHeight="40.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="67.0" layoutY="154.0" prefHeight="40.0" prefWidth="120.0" text="Solution:" />
+      <Label layoutX="67.0" layoutY="227.0" prefHeight="40.0" prefWidth="120.0" text="Result:" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+E=mc^2 E=m*c^2 m=E/c^2 c=sqrt(E/m)
+t'=t/√(1−v^2/c^2) t'=t/sqrt(1-v^2/c^2) t=t'*sqrt(1-v^2/c^2) v=sqrt(1-t^2/t'^2)*c c=v/sqrt(1-t^2/t'^2)
+ℓ'=ℓ√(1−v^2/c^2) ℓ'=ℓ*sqrt(1-v^2/c^2) ℓ=ℓ'/(1-v^2/c^2) v=sqrt(1-ℓ'^2/ℓ^2)*c c=v/sqrt(1-ℓ'^2/ℓ^2)
+m'=m/√(1-v^2/c^2) m'=m/sqrt(1-v^2/c^2) m=m'*sqrt(1-v^2/c^2) v=sqrt(1-m^2/m'^2)*c c=v/sqrt(1-m^2/m'^2)
+Kmax=E−ϕ Kmax=E−ϕ E=Kmax+ϕ ϕ=-Kmax+E

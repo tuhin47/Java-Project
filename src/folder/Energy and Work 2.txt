@@ -1,0 +1,8 @@
+Ek=.5*mv^2 Ek=.5*m*v^2 m=2*Ek/v^2 v=sqrt(2*Ek/m)
+Ek=p^2/2m Ek=p^2/(2*m) p=sqrt(Ek/(2*m)) m=.5*Ek/p^2
+W=F*r W=F*r F=W/r r=W/F
+P=W/t P=W/t W=P*t t=W/P
+P=F*v P=F*v F=P/v v=P/F
+U=mgh U=m*g*h m=U/(h*g) g=U/(m*h) h=U/(m*g)
+F=ma F=m*a m=F/a a=F/m
+E=.5mv^2+mgh E=.5*m*v^2+m*g*h m=E/(.5*v^2+g*h) v=sqrt((E-m*g*h)/(.5*m)) g=(E-.5*m*v^2)/(m*h) h=(E-.5*m*v^2)/(m*g)
